@@ -2189,3 +2189,8 @@ env/lib/python3.8/site-packages/wtforms/widgets/html5.py
 env/lib/python3.8/site-packages/wtforms/widgets/__pycache__/__init__.cpython-38.pyc
 env/lib/python3.8/site-packages/wtforms/widgets/__pycache__/core.cpython-38.pyc
 env/lib/python3.8/site-packages/wtforms/widgets/__pycache__/html5.cpython-38.pyc
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
