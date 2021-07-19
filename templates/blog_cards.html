@@ -1,0 +1,33 @@
+{% set dir = project["weight"] | int %}
+{% if dir % 2 == 0 %}
+
+<div class="blog-card">
+{% else %}
+<div class="blog-card alt">
+{% endif %}
+    <div class="meta">
+      <div class="photo" style="background-image: url({{project['photos'][0]}})"></div>
+      <ul class="details">
+        <li class="date">{{project['date']}}</li>
+        <li class="tags">
+          <ul>
+            {% for item in project['tags'] %}
+            <span class ="icon {{item}}"> {{item}} </span>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="description">
+      <h1>{{project['name']}}</h1>
+      <h2>
+         {{project['secondary']}}
+      </h2>
+      <p>{{project['short']}}</p>
+      {% if project['link'][0] != '_' %}
+      <p class="read-more">
+        <a href="{{project['link']}}">Read More</a>
+      </p>
+      {% endif %}
+    </div>
+  </div>

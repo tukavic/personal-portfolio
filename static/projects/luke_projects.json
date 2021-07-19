@@ -1,0 +1,134 @@
+{
+    "projects": [
+      {
+        "name": "aPaperADay Blog",
+        "link": "https://www.apaperaday.com",
+        "date": "2019 - Present",
+        "short": "I've been reading and commenting on a Deep Learning Papers for the past two years.  In the beginning, it took me quite a while to understand the papers, but I'm getting much faster.  I typically get seasons when I can maintain it daily.  Some of my favorite papers are anything with Kaiming, the BERT paper, and I really enjoyed reading the Graphcore patent.",
+        "status": "complete",
+        "weight": 20,
+        "photos": [
+          "/static/images/apad.png"
+        ]
+      },
+      {
+        "name": "Personal Portfolio",
+        "link": "_portfolio",
+        "date": "July 2021",
+        "short": "You're looking at it.  I started from a public github repo, shoutout to crearo!  I modified the cards on this page, and added an acknowledgements page.",
+        "weight": 5,
+        "tags": [
+          "Flask",
+          "Django",
+          "CSS",
+          "HTML"
+        ],
+        "photos": [
+          "/static/images/portfolio.png"
+        ]
+      }, 
+      {
+        "name": "Violin Build",
+        "link": "_violin-build",
+        "date": "2011 - 2013",
+        "short": "It began on breaks in my first year of college.  I finally finished by junior year and signed myself up for a private lesson on my very own violin.  The craftmanship was a dead giveaway the second my teacher set eyes on it, but I enjoyed learning on my own creation and can play a Ashekon Farewell.",
+        "weight": 2,
+        "tags": [
+          "Hands"
+        ],
+        "photos": [
+          "/static/images/v_p5.jpg"
+        ]
+      },
+      {
+        "name": "Apple Health Data Analysis",
+        "link": "https://github.com/tukavic/ml-apple-health-vo2max",
+        "date": "March 2021",
+        "short": "A project inspecting my Apple Health Data, particularly trying to predict Vo2Max based on workouts with ensemble tree based methods.",
+        "weight": 6,
+        "tags": [
+          "SKLearn",
+          "RandomForests"
+        ],
+        "photos": [
+          "/static/images/apple_health.png"
+        ]
+      },
+      {
+        "name": "Report on Feature Importance",
+        "link": "publish/feature_importance",
+        "pdf_link": "/static/pdfs/featimp.pdf",
+        "date": "May 2021",
+        "short": "Some writing I did on describing Feature Importance metrics, including mRMR, Drop Column, Permutation Column and Gini Drop.  Read More to see the report on Github.",
+        "weight": 7,
+        "tags": [
+          "SKLearn",
+          "Matplotlib",
+          "Pandas"
+        ],
+        "photos": [
+          "/static/images/featimp.png"
+        ]
+      },
+      {
+        "name": "Scrape Surfline Cam Rewinds",
+        "link": "https://gist.github.com/tukavic/da2238ed28eeb00b97d9acecf29c2076",
+        "date": "July 2021",
+        "short": "I needed to get the surfline cams downloaded, and the open-source code was broken, so I wrote a Selenium script to grab the needed data.",
+        "weight": 5,
+        "tags": [
+          "Selenium"
+        ],
+        "photos": [
+          "/static/images/rewind.png"
+        ]
+      },
+      {
+        "name": "8 Bit Computer",
+        "link": "https://github.com/tukavic/Computer-Project/tree/master",
+        "date": "Oct 2019 - May 2020",
+        "short": "This was a computer architecture project I had a blast creating! I built a bare level machine that loaded constants into both registers, added, stored, recalled, then passed those bits to the output lines.",
+        "weight": 4,
+        "tags": [
+          "GreenPak",
+          "Arduino",
+          "I2C"
+        ],
+        "photos": [
+          "/static/images/breadboard.png"
+        ]
+      }, 
+      {
+        "name": "Card Classifier",
+        "link": "_card_classifier",
+        "date": "Dec 2019",
+        "short": "The Card Classifier is a deep learning project as a proof of concept for machine vision. Below you can see the classifications across a fanned deck of cards.  Images are transformed down to (360,200), run through a ResNet-50 backbone and classified into  1 of 53 classes, where the additional class is just a background class.",
+        "weight": 4,
+        "tags": [
+          "FastAI",
+          "Matplotlib"
+        ],
+        "photos": [
+          "/static/images/cards_maybe.gif"
+        ]
+      },
+      {
+        "name": "SF Citywatch Startup",
+        "link": "https://github.com/MSDS698/2021-product-analytics-group-project-group_9_safetymap",
+        "date": "June 2021",
+        "short": "A VC pitched project through the Masters of Data Science Program at University of San Francisco, promoting true safety and surrounding awareness through trending crime analysis",
+        "weight": 15,
+        "tags": [
+          "Flask",
+          "Docker",
+          "AWS",
+          "PostGres"
+        ],
+        "photos": [
+          "/static/images/sfcitywatch.png"
+        ]
+      }
+    ]
+}
+
+

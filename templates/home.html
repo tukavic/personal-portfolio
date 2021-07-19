@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+                            <a id="close" class="button" href="#"></a>
+                            <a id="min" class="button" href="#"></a>
+                            <a id="max" class="button" href="#"></a>
+                        </div>
+                        <span class="title">zsh</span>
+                    </div>
+                    <div class="message">
+                        <span class='prompt'><span class='user'>crearo</span><span class="at">@</span><span
+                                class="path">Lukes-MacBook-Pro</span>><span class="caret">$</span></span>
+                        <span class="typed"></span>
+                        <form>><span class="caret">$</span>&nbsp;<input type="text" name="response"/></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">Luke</p>
+            <p class="text-title desktop-view">Thomas</p>
+            <p class="text-title mobile-view">Luke Thomas</p>
+            <div class="social-icons">
+                <a target="_blank" href="https://github.com/tukavic">
+                    <img class="title-logo" src="static/images/github.svg">
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/luke--thomas/">
+                    <img class="title-logo" src="static/images/linkedin-logo.svg">
+                </a>
+                <a target="_blank" href="https://twitter.com/Luke_the_Thomas">
+                    <img class="title-logo" src="static/images/twitter.svg">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/"> <!-- What will be the fourth social? I dont really have anything... -->
+                    <img class="title-logo" src="static/images/insta.svg">
+                </a>
+            </div>
+        </div>
+        <div class="middle-text">
+            <p class="text-content">👋 Welcome to my corner to the internet!  I am an ambitious engineer who loves Data Science, Machine Learning and finding technology that feels like <code>magic</code></p>
+            <p class="text-content">
+                I am a Graduate Student at the University of San Francisco studying Data Science.  I also maintain a <a href="http://www.apaperaday.com">blog</a> reading Deep Learning Papers.  
+            I also love to build things, whether it is a violin or computer, I've always loved to create.</p>
+<!-- 
+            <p class="text-content" style = "color:red">I studied computer science at <a href="http://www.daiict.ac.in/daiict/index.html">DA-IICT</a>.
+            </p> -->
+
+            <!-- <p class="text-content" style = "color:red">One of my biggest side-projects is <a
+                    href="https://play.google.com/store/apps/details?id=rish.crearo.lifehacks&hl=en_IN">Lifehacks</a>,
+                an Android application I developed from scratch which now has over 750K installs. I designed the logo,
+                collated the content, structured the database and designed the REST API. I contribute to open source
+                occasionally - I've contributed heavily to
+                <a href="https://play.google.com/store/apps/details?id=nickrout.lenslauncher&hl=en_IN">Lens Launcher</a>,
+                an Android launcher with over 1 million installs, and have also open sourced a
+                personal project I developed during my university days for viewing
+                <a href="http://github.com/crearo/webmail">Zimbra Webmails on Android</a>.</p> -->
+
+            <!-- <p class="text-content" style = "color:red">I have also co-authored a paper in the Conference of Data Sciences (CODS '17)
+                studying the role of temporal diversity in inferring social ties based on spatio-temporal data. (<a
+                        href="https://arxiv.org/abs/1611.03298">view paper here</a>).</p> -->
+
+            <p class="text-content">I'm a card carrying Bible Nerd, I love to run and surf, and I'm happily married to the love of my life, Grace.</p>
+
+            <p class="text-content">You can find me on <a href="https://www.linkedin.com/in/luke--thomas/">LinkedIn</a> and 
+                <a href="https://github.com/tukavic" target="_top">Github</a>.
+            </p>
+
+            <!--<p class="text-content">Let's get in touch!</p>-->
+
+            <p class="text-content">Luke Thomas</p>
+
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}

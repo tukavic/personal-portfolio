@@ -1,0 +1,24 @@
+{
+    "acknowledgements": [
+      {
+        "name": "Fork of Flask Website Code",
+        "link": "https://github.com/crearo/portfolio",
+        "short": "The template I started this website was from 'www.rich.space'. Used with permission from the Github repo on July 2021.",
+        "weight": 5,
+        "photos": [
+          "/static/images/crearo.png"
+        ]
+      }, 
+      {
+        "name": "Project Cards",
+        "link": "https://codepen.io/ChynoDeluxe/pen/bdXeqQ",
+        "short": "The cards used here and in /projects was designed by ChynoDeluxe.  Exported from Codepen.io from this link on July 2021: https://codepen.io/ChynoDeluxe/pen/bdXeqQ",
+        "weight": 2,
+        "photos": [
+          "/static/images/blog-cards.png"
+        ]
+      }
+    ]
+}
+
+
