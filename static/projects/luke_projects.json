@@ -13,13 +13,13 @@
       },
       {
         "name": "Personal Portfolio",
-        "link": "_portfolio",
+        "link": "https://github.com/tukavic/personal-portfolio",
         "date": "July 2021",
-        "short": "You're looking at it.  I started from a public github repo, shoutout to crearo!  I modified the cards on this page, and added an acknowledgements page.",
+        "short": "This Website.  I took (with permission) from crearo's public github repo and primarily modified the cards on the projects page, and added an acknowledgements page. Hosted on AWS Elastic Beanstalk.",
         "weight": 5,
         "tags": [
           "Flask",
-          "Django",
+          "AWS",
           "CSS",
           "HTML"
         ],
@@ -31,7 +31,7 @@
         "name": "Violin Build",
         "link": "_violin-build",
         "date": "2011 - 2013",
-        "short": "It began on breaks in my first year of college.  I finally finished by junior year and signed myself up for a private lesson on my very own violin.  The craftmanship was a dead giveaway the second my teacher set eyes on it, but I enjoyed learning on my own creation and can play a Ashekon Farewell.",
+        "short": "This was a two year build that started in my summers during college.  It was a full build from scratch that I did by following a book and I'm very happy with how it turned out  I even took lessons on it during my last year of college.",
         "weight": 2,
         "tags": [
           "Hands"
