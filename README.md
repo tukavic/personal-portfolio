@@ -1,28 +1,18 @@
-# www.rish.space
+# www.lukethomas.ai
 
 ----
 
-This is [my personal corner on the web](http://rish.space). I quite like the domain name; conveys exactly what it is. 
+This is the code for my personal portfolio.  I originally got the code from [here](https://github.com/crearo/portfolio) and adapted it to my preference.
 
-
-# Screenshots
-<p float="left">
-  <img src="https://raw.githubusercontent.com/crearo/portfolio/master/screenshots/home.png" width="400">
-  <img src="https://raw.githubusercontent.com/crearo/portfolio/master/screenshots/timeline.png" width="400">
-</p>
+![screenshot.png](static/images/screenshot.png)
 
 # Technology
 
-Developed using Python Flask, and a lot of CSS and Jinja2.
-Currently hosted on Heroku. 
-
-Sidenote: I struggle to understand why web UI isn't as easy to make as Android's.
+* Developed using Python Flask, and a lot of CSS and Jinja2.
+* Currently hosted on AWS through Elastic Beanstalk with a CI pipeline. 
+* The Domain was purchased from Namecheap.
 
 # I want to use this!
 
-You're free to use this for your own personal portfolio; but please do write to me telling me you have!
- 
- - change the static content wherever it is to suit your work.
- - **NOTE**: Hard-refresh your browser (ctrl-shift-r) when you update the js files #19
- - change the `experiences.json` and `projects.json` files with your work and projects. 
- - send me an email at rishextra at gmail dot com. I'd really love to see it being used!
+You're free to use this for your own personal portfolio; but please write the original author [rish](https://github.com/crearo/portfolio) to let him know you've benefitted from his work.
+
