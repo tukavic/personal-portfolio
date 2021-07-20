@@ -48,7 +48,7 @@ def order_projects_by_weight(projects):
 
 @application.route('/resume')
 def resume():
-    data = {"name": "Luke Thomas Résumé",
+    data = {"name": "Luke Thomas Resume",
             "pdf_link": "/static/pdfs/resume.pdf"}
     return render_template('pdf.html', project=data)
 

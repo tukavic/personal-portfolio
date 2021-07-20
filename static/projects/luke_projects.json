@@ -4,7 +4,7 @@
         "name": "aPaperADay Blog",
         "link": "https://www.apaperaday.com",
         "date": "2019 - Present",
-        "short": "I've been reading and commenting on a Deep Learning Papers for the past two years.  In the beginning, it took me quite a while to understand the papers, but I'm getting much faster.  I typically get seasons when I can maintain it daily.  Some of my favorite papers are anything with Kaiming, the BERT paper, and I really enjoyed reading the Graphcore patent.",
+        "short": "I started a blog to read a part of a deep learning paper daily.  It has morphed into a style of 'discovery writing' where I document my process of reading new Deep Learning papers.  The blog has inspired a love for research in me, as I keep up with some of the most cited or newest deep learning papers.  I've looked at a range of topics from Vision to NLP to Regularization. I've enjoyed the foundational papers like BERT and Attention is All You Need, but also even a Graphcore patent on machine learning hardware.",
         "status": "complete",
         "weight": 20,
         "photos": [
@@ -114,7 +114,7 @@
       },
       {
         "name": "SF Citywatch Startup",
-        "link": "https://github.com/MSDS698/2021-product-analytics-group-project-group_9_safetymap",
+        "link": "http://www.sfcitywatch.com",
         "date": "June 2021",
         "short": "A VC pitched project through the Masters of Data Science Program at University of San Francisco, promoting true safety and surrounding awareness through trending crime analysis",
         "weight": 15,
