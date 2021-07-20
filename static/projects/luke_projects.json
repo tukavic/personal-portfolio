@@ -8,7 +8,7 @@
         "status": "complete",
         "weight": 20,
         "photos": [
-          "/static/images/apad.png"
+          "/static/images/paper.png"
         ]
       },
       {
@@ -103,7 +103,7 @@
         "link": "_card_classifier",
         "date": "Dec 2019",
         "short": "The Card Classifier is a deep learning project as a proof of concept for machine vision. Below you can see the classifications across a fanned deck of cards.  Images are transformed down to (360,200), run through a ResNet-50 backbone and classified into  1 of 53 classes, where the additional class is just a background class.",
-        "weight": 4,
+        "weight": 5,
         "tags": [
           "FastAI",
           "Matplotlib"
