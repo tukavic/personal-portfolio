@@ -12,5 +12,3 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 # Set the application object
 from application import application as app
-application = app
-from application import application as app
